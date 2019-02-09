@@ -5,12 +5,12 @@
 
 1. Клонирование проекта к себе на ПК               
 ```sh
-git clone github.com/Andrew80Ka/webdev-template.git
+git clone github.com/..../..... .git
 ```
 
 2. Переходим в созданную папку
 ```sh
-cd webdev-template
+cd webdev-html
 ```
 
 3. Устанавливаем все зависимости
