@@ -1,0 +1,32 @@
+.card-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card {
+	&__item {
+		position: relative;
+		width: 100%;
+	}
+	&__item:not(:first-child) {
+		margin-left: 15px;
+	}
+	&__item:not(:last-child) {
+		margin-right: 15px;
+	}
+	&__title {
+		display: inline-block;
+		color: #FFF;
+		font-size: 14px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+	&__item-img {
+	}
+}
+.card__title--top-blue {
+	position: absolute;
+	min-width: 75%;
+	background-color: #334572;
+}
