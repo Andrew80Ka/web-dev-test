@@ -91,13 +91,12 @@ pre code {
 }
 
 blockquote {
-    background: @lightGrayBg;
-    padding: 30px 80px;
+    // background: @lightGrayBg;
     position: relative;
     width: 100%;
-    margin: 2em auto;
+    margin: 10px auto;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -105,21 +104,23 @@ blockquote:before {
     content: '“';
     font-weight: 900;
     color: @lightGrayText;
-    opacity: 0.2;
-    font-size: 4em;
-    line-height: 1em;
+    opacity: 1;
+    font-size: 20px;
+    line-height: 1;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 0px;
+    left: 0px;
     z-index: 0;
 }
 
 blockquote p {
     margin-bottom: 0;
-    font-size: 18px;
+    margin-top: 0;
+    margin-left: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color: #2a2a2a;
-    font-weight: 700;
+    font-weight: 400;
     position: relative;
     z-index: 1;
 }

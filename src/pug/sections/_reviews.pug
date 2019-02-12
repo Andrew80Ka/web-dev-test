@@ -1,1 +1,10 @@
 // reviews
+include ../mixins/_mixins.pug
+section.reviews
+	.heading.reviews__heading
+		.heading__title Отзывы
+		.heading__subtitle Здесь Вы можете узнать, что думают о нас наши клиенты
+	.container
+		include ../blocks/_reviews-cards.pug
+		.reviews__button
+			a(href="#").button.button--big-pd Ещё отзывы

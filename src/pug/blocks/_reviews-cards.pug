@@ -1,0 +1,29 @@
+include ../mixins/_mixins.pug
+.reviews-cards
+	.reviews-cards__item
+		img(src="" alt="photo").reviews-cards__photo
+		.reviews-cards__author
+			span.reviews-cards__author-name Алексей,
+			span.reviews-cards__author-date 23.05.2018
+		blockquote.reviews-cards__blockquote
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptas deleniti voluptate sunt modi ullam error in labore...
+		a(href="#").reviews-cards__link Читать полностью &#9655;
+		+ratingStar().reviews-cards__rating
+	.reviews-cards__item
+		img(src="" alt="photo").reviews-cards__photo
+		.reviews-cards__author
+			span.reviews-cards__author-name Алексей,
+			span.reviews-cards__author-date 23.05.2018
+		blockquote.reviews-cards__blockquote
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptas deleniti voluptate sunt modi ullam error in labore...
+		a(href="#").reviews-cards__link Читать полностью &#9655;
+		+ratingStar().reviews-cards__rating
+	.reviews-cards__item
+		img(src="" alt="photo").reviews-cards__photo
+		.reviews-cards__author
+			span.reviews-cards__author-name Алексей,
+			span.reviews-cards__author-date 23.05.2018
+		blockquote.reviews-cards__blockquote
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptas deleniti voluptate sunt modi ullam error in labore...
+		a(href="#").reviews-cards__link Читать полностью &#9655;
+		+ratingStar().reviews-cards__rating
