@@ -1,1 +1,6 @@
 //- Разные миксины по одному, которые понадобятся. Для логотипа, бейджа, и т.д.
+mixin featuresItem(img, altText, title, subTitle)
+	.features__item
+		img(src= img alt= altText).features__icon
+		span.features__title #{title}
+		span.features__sub-title #{subTitle}
