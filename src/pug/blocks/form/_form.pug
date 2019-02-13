@@ -1,0 +1,16 @@
+// feedback__form
+form.form.feedback__form
+	.form__group-wrapper
+		.form__group
+			input(type="text" id="fullname" name="fullname" placeholder="Имя").form__field
+			input(type="text" id="phone" name="phone" placeholder="Ваш телефон").form__field
+			input(type="text" id="email" name="email" placeholder="Email").form__field
+		.form__group
+			textarea(name="message" id="message" placeholder="Напишите кратко ваш вопрос").form__field
+			input(type="file" name="file" id="file-feedback" class="inputfile" data-multiple-caption="{count} файлов выбрано" multiple).form__field
+			label(class="label" for="file-feedback").form__field
+				span Загрузить файл (До 6 Mb)
+	.form__message Отправляя форму, вы даете согласие на
+		a(href="#").form__message-link обработку персональных данных
+	.form-submit
+		input(type="submit" class="btn btn__submit" value="Отправить сообщение").button.form-submit__button
