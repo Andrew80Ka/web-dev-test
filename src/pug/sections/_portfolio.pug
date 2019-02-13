@@ -1,0 +1,57 @@
+// portfolio
+include ../mixins/_mixins.pug
+section.portfolio
+	.heading.heading--hr-line-double.portfolio__heading
+		.heading__title Мы участвовали в проектах
+		.heading__subtitle За годы работы к нам обращались клиенты с различными проектами.<br>Давайте мы покажем несколько наших работ
+	.portfolio-photo
+		.portfolio-photo__item
+			.portfolio-photo__item-img-wrapper
+				img(src="img/photo/big-item.jpg" alt="photo").portfolio-photo__item-img
+				.photo-description.portfolio-photo__description
+					.photo-description__title Виниловый сайдинг
+					ul.photo-description__list
+						+descriptionLiItem("материал:", "акрил")
+						+descriptionLiItem("цвет:", "акрил")
+						+descriptionLiItem("Минская обл.", "")
+					a(href="#").button-arrow.photo-description__button-arrow &#8594;
+		.portfolio-photo__item
+			.portfolio-photo__item-img-wrapper
+				img(src="img/photo/sm-item-1.jpg" alt="photo").portfolio-photo__item-img
+				.photo-description.portfolio-photo__description
+					.photo-description__title Виниловый сайдинг
+					ul.photo-description__list
+						+descriptionLiItem("материал:", "акрил")
+						+descriptionLiItem("цвет:", "акрил")
+						+descriptionLiItem("Минская обл.", "")
+					a(href="#").button-arrow.photo-description__button-arrow &#8594;
+			.portfolio-photo__item-img-wrapper
+				img(src="img/photo/sm-item-3.jpg" alt="photo").portfolio-photo__item-img
+				.photo-description.portfolio-photo__description
+					.photo-description__title Виниловый сайдинг
+					ul.photo-description__list
+						+descriptionLiItem("материал:", "акрил")
+						+descriptionLiItem("цвет:", "акрил")
+						+descriptionLiItem("Минская обл.", "")
+					a(href="#").button-arrow.photo-description__button-arrow &#8594;
+		.portfolio-photo__item
+			.portfolio-photo__item-img-wrapper
+				img(src="img/photo/sm-item-2.jpg" alt="photo").portfolio-photo__item-img
+				.photo-description.portfolio-photo__description
+					.photo-description__title Виниловый сайдинг
+					ul.photo-description__list
+						+descriptionLiItem("материал:", "акрил")
+						+descriptionLiItem("цвет:", "акрил")
+						+descriptionLiItem("Минская обл.", "")
+					a(href="#").button-arrow.photo-description__button-arrow &#8594;
+			.portfolio-photo__item-img-wrapper
+				img(src="img/photo/sm-item-4.jpg" alt="photo").portfolio-photo__item-img
+				.photo-description.portfolio-photo__description
+					.photo-description__title Виниловый сайдинг
+					ul.photo-description__list
+						+descriptionLiItem("материал:", "акрил")
+						+descriptionLiItem("цвет:", "акрил")
+						+descriptionLiItem("Минская обл.", "")
+					a(href="#").button-arrow.photo-description__button-arrow &#8594;
+	.portfolio__button
+		a(href="#").button.button--big-pd Смотреть еще
